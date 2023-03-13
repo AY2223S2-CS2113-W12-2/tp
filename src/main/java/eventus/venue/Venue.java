@@ -1,4 +1,4 @@
-package seedu.duke;
+package eventus.venue;
 
 public class Venue {
     private String venueName;

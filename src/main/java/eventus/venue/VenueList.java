@@ -1,4 +1,6 @@
-package seedu.duke;
+package eventus.venue;
+
+import eventus.exception.EmptyListException;
 
 import java.util.ArrayList;
 
