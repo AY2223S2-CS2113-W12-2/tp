@@ -1,7 +1,5 @@
 package eventus.company;
 
-import eventus.company.Company;
-
 import java.util.ArrayList;
 
 public class CompanyList {
