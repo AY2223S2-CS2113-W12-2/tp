@@ -2,7 +2,7 @@ package seedu.duke;
 
 public class Ui {
 
-    public void showLine() {
+    public static void showLine() {
         System.out.println("____________________________________________________________");
     }
 
@@ -12,20 +12,20 @@ public class Ui {
         showLine();
     }
 
-    public void showGuide() {
+    public static void showGuide() {
         showLine();
         showHelpText();
         showLine();
     }
 
-    public void showExitMessage() {
+    public static void showExitMessage() {
         showLine();
         System.out.println("Bye!");
         showLine();
         exitProgram();
     }
 
-    public void exitProgram() {
+    public static void exitProgram() {
         System.exit(0);
     }
 

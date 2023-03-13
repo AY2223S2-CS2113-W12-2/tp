@@ -1,6 +1,6 @@
-package seedu.duke.Command;
+package eventus.command;
 
-import seedu.duke.VenueList;
+import eventus.venue.VenueList;
 
 public class ListVenueCommand extends Command{
     public ListVenueCommand(String commandType){

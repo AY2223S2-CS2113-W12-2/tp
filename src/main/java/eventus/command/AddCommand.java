@@ -1,6 +1,6 @@
-package seedu.duke.Command;
+package eventus.command;
 
-import seedu.duke.VenueList;
+import eventus.venue.VenueList;
 
 public class AddCommand extends Command {
     protected String companyName;
