@@ -15,12 +15,14 @@ public class Eventus {
         ui.showWelcome();
         String input;
         Scanner in = new Scanner(System.in);
+        input = in.nextLine();
         CompanyList companyList = new CompanyList();
         VenueList venueList = new VenueList(Storage.venueListInit());
-        do {
-            input = in.nextLine();
-            run(input);
-        } while (!input.equals("bye"));
+        if (input.equals("bye")) {
+            Ui.showExitMessage();
+        } else {
+            System.out.println("Unknown input");
+        }
     }
 
     private static void run(String input) {
