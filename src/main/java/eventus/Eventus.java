@@ -2,7 +2,6 @@ package eventus;
 
 import eventus.command.Command;
 import eventus.company.CompanyList;
-import eventus.exception.EmptyListException;
 import eventus.venue.VenueList;
 
 import java.util.Scanner;
@@ -26,6 +25,5 @@ public class Eventus {
 
     private static void run(String input) {
         Command command = Parser.parse(input);
-//        command.execute();
     }
 }

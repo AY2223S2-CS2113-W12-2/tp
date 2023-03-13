@@ -10,11 +10,12 @@ public interface Parser {
         String[] inputWords = input.split(" ");
         String command = inputWords[0];
         switch (command){
-            case "list" :
+            case "list":
                 if (inputWords[1].equals("companies")){
                     ListCompanyCommand companyCommand = new ListCompanyCommand(command);
                     return companyCommand;
-                } else if (inputWords[1].equals("venues")) {
+                }
+                else if (inputWords[1].equals("venues")) {
                     ListVenueCommand venueCommand = new ListVenueCommand(command);
                     return venueCommand;
                 }
