@@ -1,4 +1,4 @@
-package eventus.company;
+package seedu.eventus.company;
 
 import java.util.ArrayList;
 

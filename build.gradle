@@ -29,7 +29,7 @@ test {
 }
 
 application {
-    mainClass = "eventus.Eventus"
+    mainClass = "seedu.eventus.Eventus"
 }
 
 shadowJar {

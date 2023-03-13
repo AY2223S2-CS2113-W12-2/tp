@@ -1,4 +1,4 @@
-package eventus;
+package seedu.eventus;
 
 import org.junit.jupiter.api.Test;
 

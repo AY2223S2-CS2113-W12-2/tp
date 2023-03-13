@@ -1,6 +1,6 @@
-package eventus;
+package seedu.eventus;
 
-import eventus.venue.Venue;
+import seedu.eventus.venue.Venue;
 
 import java.io.IOException;
 import java.util.ArrayList;

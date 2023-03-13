@@ -1,4 +1,4 @@
-package eventus.company;
+package seedu.eventus.company;
 
 public class Company {
     private String companyName;

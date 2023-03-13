@@ -1,8 +1,8 @@
-package eventus;
+package seedu.eventus;
 
-import eventus.command.Command;
-import eventus.company.CompanyList;
-import eventus.venue.VenueList;
+import seedu.eventus.command.Command;
+import seedu.eventus.company.CompanyList;
+import seedu.eventus.venue.VenueList;
 
 import java.util.Scanner;
 

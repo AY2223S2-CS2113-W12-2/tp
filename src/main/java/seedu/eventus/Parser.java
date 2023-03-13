@@ -1,9 +1,9 @@
-package eventus;
+package seedu.eventus;
 
-import eventus.command.Command;
-import eventus.command.DeleteCommand;
-import eventus.command.ListCompanyCommand;
-import eventus.command.ListVenueCommand;
+import seedu.eventus.command.Command;
+import seedu.eventus.command.DeleteCommand;
+import seedu.eventus.command.ListCompanyCommand;
+import seedu.eventus.command.ListVenueCommand;
 
 public interface Parser {
     static Command parse(String input){

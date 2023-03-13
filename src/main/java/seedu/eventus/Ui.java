@@ -1,4 +1,4 @@
-package eventus;
+package seedu.eventus;
 
 public class Ui {
 
