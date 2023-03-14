@@ -6,14 +6,11 @@ import java.util.ArrayList;
 
 public class CompanyList {
 
-   // ArrayList<Company> companies = new ArrayList<>();
-
     private static ArrayList<Company> companyList;
 
     public CompanyList(ArrayList<Company> companyList) {
         this.companyList = companyList;
     }
-
 
     public static void listCompanyInformation() throws EmptyListException{
         if (companyList.size() == 0) {
