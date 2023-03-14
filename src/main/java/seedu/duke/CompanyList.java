@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class CompanyList {
 
-    ArrayList<Company> companies = new ArrayList<>();
+   // ArrayList<Company> companies = new ArrayList<>();
 
     private static ArrayList<Company> companyList;
 
