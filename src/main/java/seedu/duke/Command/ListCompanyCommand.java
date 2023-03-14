@@ -1,8 +1,7 @@
 package seedu.duke.Command;
 
 import seedu.duke.VenueList;
-import seedu.duke.CompanyList;
-import seedu.duke.Ui;
+
 
 
 public class ListCompanyCommand extends Command{

@@ -29,6 +29,8 @@ public class Ui {
         System.exit(0);
     }
 
+
+
     private static void showHelpText() {
         System.out.println("Here are the functions of the application!");
         System.out.println("To add a company, type:");
