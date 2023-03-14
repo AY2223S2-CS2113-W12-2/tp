@@ -1,6 +1,6 @@
 package seedu.duke.command;
 
-import seedu.duke.EmptyListException;
+
 import seedu.duke.CompanyList;
 
 
@@ -9,7 +9,7 @@ public class ListCompanyCommand extends Command{
         super(commandType);
     }
 
-    
+
     public void execute(CompanyList companyList){
         companyList.listCompanyInformation();
     }
