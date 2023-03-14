@@ -8,9 +8,10 @@ public class CompanyList {
 
     ArrayList<Company> companies = new ArrayList<>();
 
-    public void listCompanyInformation() throws EmptyListException{
+
+    public void listCompanyInformation()  {
         if (companies.size() == 0) {
-            throw new EmptyListException();
+            System.out.println("no");
         }
         else {
             for (int i = 0; i < companies.size(); i += 1) {
@@ -18,4 +19,16 @@ public class CompanyList {
             }
         }
     }
+
+    public boolean add(String companyName, int contactNumber, String contactEmail){
+        try{
+            Company newCompany = new Company(companyName, contactNumber, contactEmail);
+            companies.add(newCompany);
+            return true;
+        } catch(seedu.duke.InputMismatchException e){
+            return false;
+        }
+    }
+
+
 }
