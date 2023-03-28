@@ -75,6 +75,14 @@ public class UiTest {
                 out.toString().trim());
     }
 
+    @Test
+    public void showSuccessfulConfirmedMessage_afterConfirmingAttendance_showConfirmationMessage() {
+        Ui ui = new Ui();
+        ui.showSuccessfulConfirmedMessage();
+        assertEquals("Company has been successfully confirmed/uncomfirmed!",
+                out.toString().trim());
+    }
+
     @AfterEach
     public void restoreInitialStreams() {
         System.setOut(originalOut);
