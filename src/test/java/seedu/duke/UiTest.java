@@ -79,7 +79,7 @@ public class UiTest {
     public void showSuccessfulConfirmedMessage_afterConfirmingAttendance_showConfirmationMessage() {
         Ui ui = new Ui();
         ui.showSuccessfulConfirmedMessage();
-        assertEquals("Company has been successfully confirmed/uncomfirmed!",
+        assertEquals("Company has been successfully confirmed/unconfirmed!",
                 out.toString().trim());
     }
 
